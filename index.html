@@ -1,18 +1,110 @@
 <!DOCTYPE html>
-<html>
+<html class="layout-home">
 <head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119520799-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-119520799-1');
-</script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119520799-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-119520799-1');
+    </script>
+    <!--
+    If you are looking into this section, you should watch Travis Nielson videos.
+    or look up his page, or look him up and tell him how awesome he is.
+    And as you are there already tell him thank you for being there teaching me how to hack.
+    And remember...
+    Keep on hacking!
+    -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Dungeons and Dragosn kind of stuff">
+    <meta name="keywords" content="D&D,DMsGuild,Dungeons,Dragons,Adventure, Writer">
+    <meta name="author" content="Sebastián Pérez, thebegginer">
+    
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <section class="section-1 section-about">
+        <div class="main-panel">
+            <div class="title">The Begginer</div>
+            <div class="face"></div>
+            <div class="blurb">
+                <strong>Sebastián is constantly creating </strong>... in his head. Taking the crations from there to the paper and to the hand of someone that is actually going to use the stuff is a whole diferent story.
+            </div>
+        </div>
+    </section>
+    <section class="section-2 section-gossip">
+        <div class="main-panel">
+            <div class="title">If you have not heard about me, you have not been paying attention.</div>
+            <div class="buble-wrapers">
+                <div class="nice-comment">
+                    <img src="./img/cbsa82.jpg" alt="cbsa82" height="42" width="42">
+                    <a class="twitter-link" href="url">@cbsa82</a>
+                    <p>thebegginer is at it again, this time with a set of hand drawn maps.</p>
+                </div>
+                <div class="nice-comment">
+                    <img src="./img/DR_Backflip.jpg" alt="Dr_Backflip" height="42" width="42">
+                    <a class="twitter-link" href="url">@Dr_Backflip</a>
+                    <p>Mermai Island is a fun little addon to a greatly written adventure.</p>
+                </div>
+                <div class="nice-comment">
+                    <img src="./img/DM-Dango.jpg" alt="DM_Dango" height="42" width="42">
+                    <a class="twitter-link" href="url">@DM_Dango</a>
+                    <p>I would rate Goblin´s hideout 4 out of 5 in Dungeon Master Guild</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-3 section-gallery">
+        <div class="main-panel">
+            <div class="title">You can find my priceless adventures here</div>
+            <a href="http://www.dmsguild.com/browse.php?author=Sebasti%C3%A1n%20P%C3%A9rez" target="_blank">
+            <div class="button">
+                <div class="shadow" ><img alt="dmsfuild" src="./img/DMsGuild-Logo-shadow.png"></div>
+                <div class="colored"><img alt="dmsfuild" src="./img/DMsGuild-Logo.png"></div>
+            </div>
+            </a>
+        </div>        
+    </section>
+    <section class="section-4 section-buttons">
+        <div class="main-panel">
+            <div class="title">Were you looking for me?</div>
+            <div class="social-buttons">
+                <div class="twitter"><img src="./img/twitter.png" alt="twitter-icon" height="42" width="42"></div>
+                <div class="youtube"><img src="./img/youtube.png" alt="twitter-icon" height="42" width="42"></div>
+                <div class="wordpress"><img src="./img/wordpress.png" alt="twitter-icon" height="42" width="42"></div>
+            </div>
+            <div class="iam-here"></div>
+        </div>
+    </section>
+    <section class="section-5 section-contact">
+        <div class="main-panel">
+            <div class="title">Email me, maybe?</div>
+            <div class="description">
+                <p>You know you want it...</p>
+                <p>come on, write some stuff and press that button...</p>
+                <p class="remark">PRESS THAT BUTTON!!!</p>
+            </div>
+            <form method="POST" action="https://formspree.io/thabegginer.tian@gmail.com">
+                <input type="email" name="email" placeholder="Your email">
+                <input type="hidden" name="_next" value="https://site.io/thanks.html" />
+                <textarea name="message" placeholder="What are you saying? I can not hear you, say that again please."></textarea>
+                <!--Alternate button-->
+                <div class="text-center">
+                    <button type="submit">Send</button>
+                </div>
+            </form>      
+        </div>
+    </section>
+    <section class="section-6 section-letsplay">
+        <div class="main-panel">
+            <div>
+                <p>If you are reading this you deserve to know... I am preparing to run a game on twitch, One Night Stand, a series of one shots.</p>
+                <p>I will be putting the submision form here some time in the future, but if you want to get notified send me a mail with the form above.</p>            
+            </div>    
+        </div>        
+    </section>
 </body>
 </html>
